@@ -14,6 +14,12 @@
      limitations under the License.
 -->
 <resources>
+    <!-- Edit workspace -->
+    <string name="settings_lock_layout_title">Lock layout</string>
+    <string name="settings_lock_layout_summary_on">Icons and widgets can\'t be added, removed and moved on the homescreen</string>
+    <string name="settings_lock_layout_summary_off">Icons and widgets can be added, removed and moved on the homescreen</string>
+    <string name="settings_edit_widgets_error">It\'s not possible to add widgets to the home screen</string>
+
     <!-- Trust apps -->
     <string name="trust_apps_manager_name">Hidden &amp; Protected apps</string>
     <string name="trust_apps_auth_manager">Unlock to manage the hidden and protected apps</string>
