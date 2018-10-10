@@ -95,6 +95,8 @@ public class InvariantDeviceProfile implements OnSharedPreferenceChangeListener 
 
     private static final float ICON_SIZE_DEFINED_IN_APP_DP = 48;
 
+    public static final String KEY_SHOW_DESKTOP_LABELS = "pref_desktop_show_labels";
+    public static final String KEY_SHOW_DRAWER_LABELS = "pref_drawer_show_labels";
     public static final String KEY_WORKSPACE_LOCK = "pref_workspace_lock";
 
     // Constants that affects the interpolation curve between statically defined device profile
@@ -210,7 +212,7 @@ public class InvariantDeviceProfile implements OnSharedPreferenceChangeListener 
     private InvariantDeviceProfile(Context context) {
         mContext = context;
 
-        SharedPreferences prefs = Utilities.getPrefs(context);
+        SharedPreferences prefs = LauncherPrefs.getPrefs(context);
         prefs.registerOnSharedPreferenceChangeListener(this);
         String gridName = getCurrentGridName(context);
         String newGridName = initGrid(context, gridName);
@@ -309,8 +311,12 @@ public class InvariantDeviceProfile implements OnSharedPreferenceChangeListener 
 
     @Override
     public void onSharedPreferenceChanged(SharedPreferences prefs, String key) {
-        if (KEY_THEMED_ICONS_EVERYWHERE.equals(key)) {
-            onConfigChanged(mContext);
+        switch (key) {
+            case KEY_THEMED_ICONS_EVERYWHERE:
+            case KEY_SHOW_DESKTOP_LABELS:
+            case KEY_SHOW_DRAWER_LABELS:
+                onConfigChanged(mContext);
+                break;
         }
     }
 
