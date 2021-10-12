@@ -281,7 +281,7 @@ public final class FeatureFlags {
 
     // TODO(Block 20): Clean up flags
     public static final BooleanFlag ENABLE_SCRIM_FOR_APP_LAUNCH = getDebugFlag(270393276,
-            "ENABLE_SCRIM_FOR_APP_LAUNCH", DISABLED, "Enables scrim during app launch animation.");
+            "ENABLE_SCRIM_FOR_APP_LAUNCH", ENABLED, "Enables scrim during app launch animation.");
 
     public static final BooleanFlag ENABLE_BACK_SWIPE_HOME_ANIMATION = getDebugFlag(270393426,
             "ENABLE_BACK_SWIPE_HOME_ANIMATION", ENABLED,
