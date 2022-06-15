@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b89e51b_66ffb85c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2022-06-15T12:47:00Z",
+      "side": 1,
+      "message": "maybe you can use this commit from ricedroid https://github.com/RiceDroid/android_packages_apps_Launcher3/commit/1976af7fe86babab869321d5c8945af955d91f73",
+      "revId": "d01722f6a3be3e8d2d33cd522b6b59d7fdff9893",
+      "serverId": "b49086b3-c06c-47ea-b69e-65c8379e1be6"
+    }
+  ]
+}
