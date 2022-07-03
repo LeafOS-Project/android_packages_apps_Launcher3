@@ -164,6 +164,7 @@ public final class Utilities {
     public static final String GSA_PACKAGE = "com.google.android.googlequicksearchbox";
     public static final String LENS_SHARE_ACTIVITY = "com.google.android.apps.search.lens.LensShareEntryPointActivity";
     public static final String KEY_SMARTSPACE = "pref_smartspace";
+    public static final String KEY_ALLOW_WALLPAPER_ZOOMING = "pref_allow_wallpaper_zooming";
 
     /**
      * Returns true if theme is dark.
@@ -995,4 +996,8 @@ public final class Utilities {
         return prefs.getBoolean(KEY_SMARTSPACE, true);
     }
 
+    public static boolean canZoomWallpaper(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return prefs.getBoolean(KEY_ALLOW_WALLPAPER_ZOOMING, true);
+    }
 }
