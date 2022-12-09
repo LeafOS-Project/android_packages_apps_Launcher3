@@ -465,8 +465,8 @@ public class LoaderCursor extends CursorWrapper {
                 // occupied (if the feature is enabled) in order to account for the search
                 // container.
                 int spanX = mIDP.numSearchContainerColumns;
-                int spanY = FeatureFlags.EXPANDED_SMARTSPACE.get() ? 2 : 1;
-                screen.markCells(0, 0, countX + 1, spanY, Utilities.showSmartspace(mContext));
+                int spanY = 1;
+                screen.markCells(0, 0, spanX, spanY, true);
             }
             occupied.put(item.screenId, screen);
         }
