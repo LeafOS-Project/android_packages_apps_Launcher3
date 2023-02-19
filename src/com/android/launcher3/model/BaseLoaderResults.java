@@ -87,7 +87,7 @@ public abstract class BaseLoaderResults {
         synchronized (mBgDataModel) {
             workspaceItems.addAll(mBgDataModel.workspaceItems);
             appWidgets.addAll(mBgDataModel.appWidgets);
-            orderedScreenIds.addAll(mBgDataModel.collectWorkspaceScreens(mApp.getContext()));
+            orderedScreenIds.addAll(mBgDataModel.collectWorkspaceScreens());
             mBgDataModel.extraItems.forEach(extraItems::add);
             if (incrementBindId) {
                 mBgDataModel.lastBindId++;

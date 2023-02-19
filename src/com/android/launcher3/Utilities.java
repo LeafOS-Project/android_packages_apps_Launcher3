@@ -165,7 +165,6 @@ public final class Utilities {
 
     public static final String GSA_PACKAGE = "com.google.android.googlequicksearchbox";
     public static final String LENS_SHARE_ACTIVITY = "com.google.android.apps.search.lens.LensShareEntryPointActivity";
-    public static final String KEY_SMARTSPACE = "pref_smartspace";
     public static final String KEY_ALLOW_WALLPAPER_ZOOMING = "pref_allow_wallpaper_zooming";
 
     /**
@@ -988,6 +987,7 @@ public final class Utilities {
         SharedPreferences prefs = getPrefs(context.getApplicationContext());
         return prefs.getBoolean(KEY_THEMED_ICONS_EVERYWHERE, false);
     }
+<<<<<<< HEAD
 
     public static boolean showSmartspace(Context context) {
         return isGSAEnabled(context) && isSmartspaceEnabled(context);
@@ -1002,4 +1002,6 @@ public final class Utilities {
         SharedPreferences prefs = getPrefs(context.getApplicationContext());
         return prefs.getBoolean(KEY_ALLOW_WALLPAPER_ZOOMING, true);
     }
+=======
+>>>>>>> parent of 9fac037084 (Launcher3: Add a toggle for smartspace)
 }

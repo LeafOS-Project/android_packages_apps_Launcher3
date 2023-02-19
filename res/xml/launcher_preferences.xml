@@ -65,12 +65,6 @@
         android:persistent="true"/>
 
     <SwitchPreference
-        android:key="pref_smartspace"
-        android:title="@string/smartspace_pref_title"
-        android:summary="@string/smartspace_pref_summary"
-        android:defaultValue="true" />
-
-    <SwitchPreference
         android:key="pref_allow_wallpaper_zooming"
         android:title="@string/allow_wallpaper_zooming"
         android:summary="@string/allow_wallpaper_zooming_summary"
