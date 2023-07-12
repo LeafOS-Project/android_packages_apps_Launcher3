@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "de22fd0e_fc73dbd1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000017
+      },
+      "writtenOn": "2023-07-12T09:58:19Z",
+      "side": 1,
+      "message": "FloatingRotationButton broken",
+      "revId": "48fcfed5964d23232c132c1792d3eb6c9c2c5ad0",
+      "serverId": "b49086b3-c06c-47ea-b69e-65c8379e1be6"
+    }
+  ]
+}
