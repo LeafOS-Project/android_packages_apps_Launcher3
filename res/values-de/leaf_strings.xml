@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="allow_wallpaper_zooming"/>
     <string name="pref_themed_icons_everywhere_summary"/>
-    <string name="paused_apps_dialog_title"/>
 </resources>
