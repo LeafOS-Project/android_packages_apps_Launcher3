@@ -1,2 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="pause_apps_dialog_title"></string>
+    <string name="paused_apps_drop_target_label"></string>
+    <string name="pref_dt_gesture_title"></string>
+    <string name="allow_wallpaper_zooming"></string>
+    <string name="paused_apps_dialog_message"></string>
+    <string name="allow_wallpaper_zooming_summary"></string>
+    <string name="action_lens"></string>
+    <string name="pref_themed_icons_everywhere_summary"></string>
+    <string name="pause"></string>
+    <string name="pref_dt_gesture_summary"></string>
+    <string name="pause_apps_dialog_message"></string>
+    <string name="paused_apps_dialog_title"></string>
+    <string name="pref_themed_icons_everywhere_title"></string>
+</resources>
